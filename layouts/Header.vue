@@ -1,7 +1,7 @@
 <template>
   <section class="header">
     <div>
-      <input type="checkbox" id="toggle_ham" style="display: none;" />
+      <input id="toggle_ham" type="checkbox" style="display: none;" />
       <div class="logo"><a href="index.html">Oblivion</a></div>
       <label for="toggle_ham" class="menu-trigger">
         <span></span>

@@ -6,7 +6,7 @@
       <li><a href="works.html">Works</a></li>
       <li><a href="about.html">About</a></li>
     </ul>
-    <input type="checkbox" id="toggle_ham" style="display: none;" />
+    <input id="toggle_ham" type="checkbox" style="display: none;" />
     <label for="toggle_ham" class="menu-trigger">
       <span></span>
       <span></span>
