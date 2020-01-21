@@ -16,7 +16,6 @@ export default {
 
 <style lang="scss">
 html {
-  font-family: 'Montserrat', sans-serif;
   font-weight: Semi-Bold;
 }
 </style>

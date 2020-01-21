@@ -4,7 +4,16 @@
   </div>
 </template>
 
-<style>
+<style lang="scss">
+// https://bootstrap-vue.js.org/docs/reference/theming/#sass-variable-defaults をよめ！
+
+$font-family-sans-serif: 'Montserrat', sans-serif;
+
+// Bootstrap and its default variables
+@import '../node_modules/bootstrap/scss/bootstrap';
+// BootstrapVue and its default variables
+@import '../node_modules/bootstrap-vue/src/index.scss';
+
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
